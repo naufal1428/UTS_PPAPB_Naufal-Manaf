@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".HomeActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Home"
+                android:textColor="@color/pink"
+                android:textStyle="bold"
+                android:textSize="32sp"
+                android:textAlignment="center"
+                android:layout_marginBottom="32dp"/>
+
+            <TextView
+                android:id="@+id/textViewTanggal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="tanggal"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/textViewNama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="nama"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/textViewBeratSekarang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="berat saat ini"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/textViewBeratTarget"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="berat target"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/textViewTujuanDiet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="tujuan diet"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/textViewTargetTanggal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="target tanggal"
+                android:layout_marginBottom="16dp"/>
+
+            <Button
+                android:id="@+id/btnInputData"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INPUT DATA"
+                android:backgroundTint="@color/pink"
+                android:layout_gravity="center"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Target kalori tersisa:"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/textViewSisaKalori"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textStyle="bold"
+                android:textColor="@color/pink"
+                android:textSize="48sp"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kalori in"
+                android:textStyle="bold"
+                android:textColor="@color/pink"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/textViewNamaMakanan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/textViewKaloriIn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/textViewKaloriMasuk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"/>
+
+            <Button
+                android:id="@+id/buttonDeleteInputCalories"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hapus Kalori Masuk"
+                android:backgroundTint="@color/pink"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kalori out"
+                android:textStyle="bold"
+                android:textColor="@color/pink"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/textViewNamaWorkout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/textViewMulaiWorkout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/textViewDurasi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/textViewCaloriesBurned"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"/>
+
+            <Button
+                android:id="@+id/buttonDeleteOutputCalories"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hapus Kalori Keluar"
+                android:backgroundTint="@color/pink"
+                android:layout_gravity="center"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>
